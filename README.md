@@ -22,6 +22,11 @@
 
 ### Method
 
+    ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 Railway 🚀
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frakeshyt%2FDevilHackerMusic%2Ftree%2FRakesh&envs=BOT_USERNAME%2CBOT_TOKEN%2CSESSION_NAME%2COWNER_ID%2CAPI_HASH%2CAPI_ID&BOT_USERNAMEDesc=Without+%40&BOT_USERNAMEDefault=DevilTrishaRoBot&OWNER_IDDefault=2023126723)
+
+
 <p align="center">
     ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐇𝐞𝐫𝐨𝐤𝐮 𝐕𝐢𝐚 𝐓𝐠 𝐁𝐨𝐭 🚀
 
