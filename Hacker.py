@@ -71,9 +71,7 @@ START_TEXT = """
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 𝘼𝙡𝙡𝙤𝙬𝙨 𝙔𝙤𝙪 𝙏𝙤 𝙋𝙡𝙖𝙮 𝙈𝙪𝙨𝙞𝙘 𝘼𝙣𝙙 𝙑𝙞𝙙𝙚𝙤𝙨 𝙊𝙣 𝙂𝙧𝙤𝙪𝙥𝙨 𝙏𝙝𝙧𝙤𝙪𝙜𝙝 𝙏𝙝𝙚 𝙉𝙚𝙬 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙑𝙞𝙙𝙚𝙤 𝘾𝙝𝙖𝙩𝙨...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝙍𝙔𝙈](https://t.me/RYMOFFICIAL)
-┣★
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝙃𝙀𝙍𝙀](https://t.me/JaiHindChatting)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [ADITYA](https://t.me/adi_xd)
 ┣★
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -86,26 +84,12 @@ START_BUTTONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("📝 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚", callback_data="cbcmds"),
-            InlineKeyboardButton("🇮🇳 𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘌𝘙", url="https://t.me/LegendRajOp")
+            InlineKeyboardButton("🇮🇳 𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘌𝘙", url="https://t.me/adi_xd")
         ],
-        [
-            InlineKeyboardButton("🧞‍♂ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url="https://t.me/JaiHindChatting"),
-            InlineKeyboardButton("🔔 𝘜𝘗𝘋𝘈𝘛𝘌𝘚", url="https://t.me/RymOfficial")
-        ],
-        [
-            InlineKeyboardButton("🔒 𝘚𝘖𝘜𝘙𝘊𝘌 𝘊𝘖𝘋𝘌", url="https://github.com/rakeshyt/DevilHackerMusic")
-        ]
+        
     ]
 )
 
-BUTTONS = InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton(text="• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", url="https://t.me/JaiHindChatting"),
-            InlineKeyboardButton(text="• 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 •", url="https://t.me/RymOfficial")
-        ]
-    ]
-)
 
 async def skip_current_song(chat_id):
     if chat_id in QUEUE:
@@ -228,7 +212,7 @@ async def cbcmds(_, query: CallbackQuery):
 » /unmute - UnMute The Assistant On Voice Chat
 » /playlist - Show You The Playlist
 » /restart - Restart The Bot
-⚡ __𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 𝘋𝘦𝘷𝘪𝘭 𝘏𝘢𝘤𝘬𝘦𝘳__""")
+⚡ __Made with ❤ by Aditya__""")
 
 
 @bot.on_message(filters.command("start") & filters.private)
